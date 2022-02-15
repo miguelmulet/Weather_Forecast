@@ -1,22 +1,29 @@
+/* Search background */
 .search-column{
     background: orange;
 }
 
+/* forecast styles */
 .list-group-item{
     line-height: 0.5;
     border: none;
 }
 
+/* flex for forecast cards */
 .card-body{
     flex:auto
 }
 
+/* Severe weather conditions styles */
 span.severe{
     padding: 2px;
     background-color: red;
     color:white;
+    border: 1px;
+    border-style: dashed;
 }
 
+/* Moderate weather condition styles */
 span.moderate{
     padding: 2px;
     background-color: yellow;
@@ -24,12 +31,16 @@ span.moderate{
     border-style: dashed;
 }
 
+/* Favorable weathehr condition styles */
 span.favorable{
     padding: 2px;
     background-color: green;
     color:white;
+    border: 1px;
+    border-style: dashed;
 }
 
+/* Forecast cards styles */
 .img-thumbnail{
     height: 500px;
     width: 100%;
